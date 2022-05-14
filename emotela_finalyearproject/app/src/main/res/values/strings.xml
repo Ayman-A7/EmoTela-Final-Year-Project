@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">emotela</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="email">Enter Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="retype_password">Confirm Password</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="or">Already have an account? Sign in</string>
+    <string name="don_t_have_an_account">Don\'t have an account? Sign up</string>
+    <string name="username">Enter username</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="emo_tela">Emo Tela</string>
+    <string name="enter_tweet_link">Enter tweet/link</string>
+    <string name="analyze">Analyze</string>
+    <string name="search_trends">Search Trends</string>
+    <string name="home">Home</string>
+    <string name="recent_searches">Recent Search</string>
+    <string name="search">Search</string>
+    <string name="settings">Profile</string>
+    <string name="time_xyz">Time : XYZ</string>
+    <string name="tweets">Tweets:</string>
+    <string name="result">Result:</string>
+    <string name="today_trends">Today Trends</string>
+    <string name="abc_n_123">#abc \n#123</string>
+    <string name="details">Time: XYZ \nTweet: XYZ \nResult: XYZ</string>
+    <string name="sendLink">Enter Email to send Link</string>
+    <string name="send_link">Send Link</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="edit_email">Edit Email</string>
+    <string name="todo">TODO</string>
+    <string name="prefFile">com.example.sharedpreferences</string>
+    <string name="minimum_password">6</string>
+    <string name="auth_failed" />
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="minimum_pass">7</string>
+    <string name="title_activity_home_tabs">home_tabs</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_activity_analyze_tweets">Analyze your Tweets </string>
+    <string name="title_activity_home">home</string>
+
+</resources>

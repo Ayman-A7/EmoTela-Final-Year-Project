@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "765364696038",
+    "project_id": "emotelafyp",
+    "storage_bucket": "emotelafyp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:765364696038:android:bd14112626705412c09c27",
+        "android_client_info": {
+          "package_name": "com.example.emotela_finalyearproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "765364696038-ihum8hmk06afknmfjb0dh7747gnp9mig.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXuWqtZL5P51ZDFIGDIOS0LzrihGi0nCk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "765364696038-ihum8hmk06afknmfjb0dh7747gnp9mig.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

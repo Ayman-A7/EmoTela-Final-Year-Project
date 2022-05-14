@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/drawable-v24/button_style.xml" value="0.1" />
+        <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/drawable-v24/ic_icon_awesome_home.xml" value="0.228" />
+        <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/drawable-v24/ic_icon_awesome_search.xml" value="0.104" />
+        <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/drawable-v24/ic_icon_ionic_ios_person.xml" value="0.228" />
+        <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/drawable-v24/ic_icon_material_email.xml" value="0.228" />
+        <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.193" />
+        <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/drawable-v24/input_box.xml" value="0.209" />
+        <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/drawable-v24/input_style.xml" value="0.209" />
+        <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/drawable/fragment_homefragment.xml" value="0.103" />
+        <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/drawable/ic_edit_tools_and_utensils_svgrepo_com.xml" value="0.1145" />
+        <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/drawable/ic_fsux_chart_regression_curve.xml" value="0.193" />
+        <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/drawable/ic_icon_ionic_ios_person.xml" value="0.228" />
+        <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/drawable/ic_icons8_edit.xml" value="0.2215" />
+        <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/drawable/ic_logout_svgrepo_com.xml" value="0.2215" />
+        <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/drawable/ic_pie_chart_23.xml" value="0.166" />
+        <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/drawable/ic_username_icon.xml" value="0.228" />
+        <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/drawable/profileicon.xml" value="0.228" />
+        <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/drawable/rounded_shape.xml" value="0.14" />
+        <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/font/font.xml" value="0.15833333333333333" />
+        <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/layout-v28/activity_signin.xml" value="0.1375" />
+        <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/layout/activity_analyze_tweets.xml" value="0.16" />
+        <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/layout/activity_forgot_password.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/layout/activity_home.xml" value="0.264" />
+        <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/layout/activity_home_tabs.xml" value="0.19067977768277042" />
+        <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/layout/activity_recent_search.xml" value="0.16" />
+        <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/layout/activity_settings.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/layout/activity_signin.xml" value="0.264" />
+        <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/layout/activity_signup.xml" value="0.4" />
+        <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/layout/edit_profile.xml" value="0.264" />
+        <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/layout/fragment_analyze_tweets.xml" value="0.1791363830696879" />
+        <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/layout/fragment_home.xml" value="0.21052631578947367" />
+        <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/layout/fragment_home_tabs.xml" value="0.19067977768277042" />
+        <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/layout/fragment_homee.xml" value="0.12141941000427534" />
+        <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/layout/fragment_homefragment.xml" value="0.1" />
+        <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/layout/fragment_keywordfrag.xml" value="0.264" />
+        <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/layout/fragment_main.xml" value="0.1791363830696879" />
+        <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/layout/fragment_recent_history.xml" value="0.12398460880718255" />
+        <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/layout/fragment_recent_search.xml" value="0.1" />
+        <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/layout/fragment_settings.xml" value="0.176" />
+        <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/layout/fragment_textfrag.xml" value="0.19067977768277042" />
+        <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/layout/fragment_trends.xml" value="0.2" />
+        <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/layout/fragment_u_r_lfrag.xml" value="0.19067977768277042" />
+        <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/layout/my_nav.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/layout/rounded_shape.xml" value="0.21822916666666667" />
+        <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/menu/menu.xml" value="0.23229166666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

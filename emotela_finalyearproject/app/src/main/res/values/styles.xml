@@ -1,0 +1,16 @@
+<resources>
+
+    <style name="Widget.Theme.Emotela_finalyearproject.ButtonBar.Fullscreen" parent="">
+        <item name="android:background">@color/teal_200</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="colorAccent">@color/Twit</item>
+    </style>
+    <style name="MyButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.MyApp.Button.Rounded</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.MyApp.Button.Rounded" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+</resources>

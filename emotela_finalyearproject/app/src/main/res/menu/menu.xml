@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item android:id="@+id/home"
+            android:title="@string/home"
+            android:icon="@drawable/ic_icon_awesome_home"/>
+        <item android:id="@+id/recent_searches"
+            android:title="@string/recent_searches"
+            android:icon="@drawable/ic_icon_awesome_history"/>
+        <item android:id="@+id/search_trends"
+            android:title="@string/search"
+            android:icon="@drawable/ic_icon_awesome_search"/>
+        <item android:id="@+id/settings"
+            android:title="@string/settings"
+            android:icon="@drawable/ic_icon_ionic_ios_person"/>
+    </menu>

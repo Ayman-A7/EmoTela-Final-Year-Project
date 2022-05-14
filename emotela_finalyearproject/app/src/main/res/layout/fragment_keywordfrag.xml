@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".keywordfrag">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText"
+        android:layout_width="330dp"
+        android:layout_height="120dp"
+        android:background="@drawable/rounded_shape"
+        android:fontFamily="monospace"
+        android:hint="Enter keyword"
+        android:inputType="text"
+        android:paddingLeft="30dp"
+        android:paddingTop="5dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/Twit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.382"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042" />
+
+    <TextView
+        android:id="@+id/choosegraphtext"
+        android:layout_width="112dp"
+        android:layout_height="36dp"
+        android:fontFamily="monospace"
+        android:text="Choose Graph"
+        app:layout_constraintBottom_toTopOf="@+id/piechart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputEditText"
+        app:layout_constraintVertical_bias="0.934" />
+
+    <ImageButton
+        android:id="@+id/piechart"
+        android:layout_width="98dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="76dp"
+        android:background="@drawable/ic_pie_chart_23"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.696" />
+
+    <ImageButton
+        android:id="@+id/logisitcRegGraph"
+        android:layout_width="104dp"
+        android:layout_height="82dp"
+        android:layout_marginEnd="76dp"
+        android:background="@drawable/ic_fsux_chart_regression_curve"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.694" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_analyze"
+        android:layout_width="192dp"
+        android:layout_height="56dp"
+        android:background="@drawable/button_style"
+        android:fontFamily="sans-serif-smallcaps"
+        android:shadowColor="#FFFFFF"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Analyze"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputEditText"
+        app:layout_constraintVertical_bias="0.799">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <EditText
+        android:id="@+id/countedittext"
+        android:layout_width="69dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/rounded_shape"
+        android:fontFamily="monospace"
+        android:hint="10"
+        android:inputType="number"
+        android:paddingStart="15dp"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/choosegraphtext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/counttv"
+        android:layout_width="327dp"
+        android:layout_height="34dp"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="monospace"
+        android:text="Enter Number of Tweets you want to get Analyzed"
+        android:textColor="@color/Twit"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toTopOf="@+id/countedittext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

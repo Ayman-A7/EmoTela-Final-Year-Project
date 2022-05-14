@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/home">
+
+    <fragment
+        android:id="@+id/home"
+        android:name="com.example.emotela_finalyearproject.home"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/recent_searches"
+        android:name="com.example.emotela_finalyearproject.recent_history"
+        android:label="fragment_recent_history"
+        tools:layout="@layout/fragment_recent_history" />
+    <fragment
+        android:id="@+id/search_trends"
+        android:name="com.example.emotela_finalyearproject.trends"
+        android:label="fragment_search_trends"
+        tools:layout="@layout/fragment_trends" />
+    <fragment
+        android:id="@+id/settings"
+        android:name="com.example.emotela_finalyearproject.settings"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>
