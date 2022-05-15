@@ -8,7 +8,7 @@
     tools:context=".keywordfrag">
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/textInputEditText"
+        android:id="@+id/userenteredkeyword"
         android:layout_width="330dp"
         android:layout_height="120dp"
         android:background="@drawable/rounded_shape"
@@ -21,10 +21,10 @@
         android:textColorHint="@color/Twit"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.382"
+        app:layout_constraintHorizontal_bias="0.308"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.042" />
+        app:layout_constraintVertical_bias="0.272" />
 
     <TextView
         android:id="@+id/choosegraphtext"
@@ -37,32 +37,33 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textInputEditText"
-        app:layout_constraintVertical_bias="0.934" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <ImageButton
         android:id="@+id/piechart"
         android:layout_width="98dp"
         android:layout_height="84dp"
-        android:layout_marginStart="76dp"
+        android:layout_marginStart="80dp"
         android:background="@drawable/ic_pie_chart_23"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.696" />
+        app:layout_constraintVertical_bias="0.765" />
 
     <ImageButton
         android:id="@+id/logisitcRegGraph"
         android:layout_width="104dp"
         android:layout_height="82dp"
-        android:layout_marginEnd="76dp"
+        android:layout_marginEnd="80dp"
+        android:contentDescription="Bar Chart"
         android:background="@drawable/ic_fsux_chart_regression_curve"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.694" />
+        app:layout_constraintVertical_bias="0.762" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btn_analyze"
+        android:id="@+id/analyzebtn"
         android:layout_width="192dp"
         android:layout_height="56dp"
         android:background="@drawable/button_style"
@@ -80,7 +81,7 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textInputEditText"
-        app:layout_constraintVertical_bias="0.799">
+        app:layout_constraintVertical_bias="0.91">
 
     </androidx.appcompat.widget.AppCompatButton>
 

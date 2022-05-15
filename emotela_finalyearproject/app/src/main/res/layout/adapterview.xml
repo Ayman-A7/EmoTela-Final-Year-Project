@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="8dp"
+    android:layout_margin="16dp">
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginVertical="6dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="336dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/keywordtitle"
+                android:layout_width="141dp"
+                android:layout_height="35dp"
+                android:fontFamily="monospace"
+                android:text="searched word: "
+                android:textSize="10sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/keywordtv"
+                android:layout_width="143dp"
+                android:layout_height="36dp"
+                android:fontFamily="monospace"
+                android:textSize="10sp">
+
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/timeanddatetitle"
+                android:layout_width="160dp"
+                android:layout_height="36dp"
+                android:fontFamily="monospace"
+                android:text="Time and Date: "
+                android:textSize="10sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/timendatetv"
+                android:layout_width="171dp"
+                android:layout_height="48dp"
+                android:fontFamily="monospace"
+                android:textSize="10sp">
+
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginVertical="6dp"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="336dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+</androidx.cardview.widget.CardView>

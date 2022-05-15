@@ -31,7 +31,7 @@ class Signup : AppCompatActivity() {
 
         auth= FirebaseAuth.getInstance()
         database= FirebaseDatabase.getInstance()
-        databaseReference= database?.reference!!.child("Users")
+        databaseReference= database?.reference!!.child("Users").child("userInfo")
         signup()
 
         binding.loginscreen.setOnClickListener {

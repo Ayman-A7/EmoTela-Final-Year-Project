@@ -40,7 +40,7 @@ class settings : Fragment(R.layout.fragment_settings) {
 
         auth = FirebaseAuth.getInstance()
         database = FirebaseDatabase.getInstance()
-        databaseReference = database?.reference!!.child("Users")
+        databaseReference = database?.reference!!.child("Users").child("userInfo")
         loadprofile()
 
     }
@@ -57,8 +57,6 @@ class settings : Fragment(R.layout.fragment_settings) {
         userreference?.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 binding?.enteredname?.text = snapshot.child("username").value.toString()
-
-
 
             }
 

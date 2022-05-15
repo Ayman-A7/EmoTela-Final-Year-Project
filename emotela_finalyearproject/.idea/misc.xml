@@ -32,6 +32,7 @@
         <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/layout/activity_settings.xml" value="0.23229166666666667" />
         <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/layout/activity_signin.xml" value="0.264" />
         <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/layout/activity_signup.xml" value="0.4" />
+        <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/layout/adapterview.xml" value="0.4" />
         <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/layout/edit_profile.xml" value="0.264" />
         <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/layout/fragment_analyze_tweets.xml" value="0.1791363830696879" />
         <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/layout/fragment_home.xml" value="0.21052631578947367" />
@@ -40,7 +41,7 @@
         <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/layout/fragment_homefragment.xml" value="0.1" />
         <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/layout/fragment_keywordfrag.xml" value="0.264" />
         <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/layout/fragment_main.xml" value="0.1791363830696879" />
-        <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/layout/fragment_recent_history.xml" value="0.12398460880718255" />
+        <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/layout/fragment_recent_history.xml" value="0.264" />
         <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/layout/fragment_recent_search.xml" value="0.1" />
         <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/layout/fragment_settings.xml" value="0.176" />
         <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/layout/fragment_textfrag.xml" value="0.19067977768277042" />
