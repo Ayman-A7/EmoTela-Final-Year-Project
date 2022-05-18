@@ -72,6 +72,7 @@ class recent_history : Fragment(R.layout.fragment_recent_history) {
                     }
 
                 }
+                myAdapter.notifyDataSetChanged()
 
                 }
 

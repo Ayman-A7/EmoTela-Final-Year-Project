@@ -33,6 +33,7 @@ class settings : Fragment(R.layout.fragment_settings) {
         binding = FragmentSettingsBinding.inflate(inflater, container, false)
         return binding!!.root
 
+
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {

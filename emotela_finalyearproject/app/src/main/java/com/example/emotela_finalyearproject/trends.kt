@@ -1,59 +1,107 @@
 package com.example.emotela_finalyearproject
 
-import android.os.Bundle
-import androidx.fragment.app.Fragment
+
+import android.location.GnssAntennaInfo
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-private const val ARG_PARAM1 = "param1"
-private const val ARG_PARAM2 = "param2"
+import androidx.fragment.app.Fragment
+import com.example.emotela_finalyearproject.databinding.FragmentTrendsBinding
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.database.*
+import androidx.appcompat.app.AppCompatActivity
 
-/**
- * A simple [Fragment] subclass.
- * Use the [trends.newInstance] factory method to
- * create an instance of this fragment.
- */
-class trends : Fragment() {
-    // TODO: Rename and change types of parameters
-    private var param1: String? = null
-    private var param2: String? = null
+import android.os.Bundle
+import android.annotation.SuppressLint
+import android.util.Log
+import android.view.View
+import android.widget.*
+import com.android.volley.Request
+import com.android.volley.RequestQueue
+import com.android.volley.toolbox.Volley
+import com.android.volley.toolbox.JsonObjectRequest
+import org.json.JSONObject
+import org.json.JSONArray
+import org.json.JSONException
+import com.android.volley.VolleyError
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        arguments?.let {
-            param1 = it.getString(ARG_PARAM1)
-            param2 = it.getString(ARG_PARAM2)
-        }
-    }
+
+class trends : Fragment(R.layout.fragment_trends), View.OnClickListener {
+    private var binding: FragmentTrendsBinding? = null
+    private lateinit var auth: FirebaseAuth
+
+    //    private val binding get() = binding!!
+    var database: FirebaseDatabase? = null
+    var databaseReference: DatabaseReference? = null
+
 
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
+        inflater: LayoutInflater,
+        container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_trends, container, false)
+        binding = FragmentTrendsBinding.inflate(inflater, container, false)
+        return binding!!.root
+
+
+
     }
 
-    companion object {
-        /**
-         * Use this factory method to create a new instance of
-         * this fragment using the provided parameters.
-         *
-         * @param param1 Parameter 1.
-         * @param param2 Parameter 2.
-         * @return A new instance of fragment trends.
-         */
-        // TODO: Rename and change types and number of parameters
-        @JvmStatic
-        fun newInstance(param1: String, param2: String) =
-            trends().apply {
-                arguments = Bundle().apply {
-                    putString(ARG_PARAM1, param1)
-                    putString(ARG_PARAM2, param2)
-                }
-            }
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        val getdata= binding?.getData
+
+        getdata!!.setOnClickListener(this)
+
+
     }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        binding = null
+    }
+
+    @SuppressLint("SetTextI18n")
+   override fun onClick(view: View) {
+        val id = view.id
+        if (id == R.id.getData) {
+            val location = binding?.locationId!!.text.toString().trim { it <= ' ' }
+            if (location.isEmpty()) {
+                binding?.locationId?.error = "Please Enter Your Country"
+
+
+            }
+            val requestQueue: RequestQueue
+            requestQueue = Volley.newRequestQueue(context)
+            @SuppressLint("SetTextI18n") val jsonObjectRequest = JsonObjectRequest(
+                Request.Method.GET,
+                "https://twtsentiment-fastapi.herokuapp.com/get_trend?loc=$location",
+                null, { response: JSONObject ->
+                    Log.d("Response", response.toString())
+                    try {
+                        val jsonArray = response.getJSONArray("Trends")
+                        for (i in 0 until jsonArray.length()) {
+                            binding?.showData!!.append(
+                                """
+ ${jsonArray.optString(i)}
+ """
+                            )
+                            Log.d("TEXT", jsonArray.optString(i))
+                        }
+                    } catch (e: JSONException) {
+                        e.printStackTrace()
+                    }
+                }) { error: VolleyError? -> Log.d("myapp", "something went wrong") }
+            requestQueue.add(jsonObjectRequest)
+        }
+        binding?.locationId!!.setOnClickListener {
+            binding?.showData!!.setText("")
+        }
+
+    }
+
 }
+
+
+
+
