@@ -100,6 +100,7 @@ class trends : Fragment(R.layout.fragment_trends), View.OnClickListener {
 
     }
 
+
 }
 
 

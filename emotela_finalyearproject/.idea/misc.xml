@@ -3,6 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ayman/AndroidStudioProjects/EmoTela-main/EmoTela-Final-Year-Project/emotela_finalyearproject/app/src/main/res/layout/activity_splash_screen.xml" value="0.2287179487179487" />
+        <entry key="..\:/Users/ayman/AndroidStudioProjects/EmoTela-main/EmoTela-Final-Year-Project/emotela_finalyearproject/app/src/main/res/layout/fragment_keywordfrag.xml" value="0.22037037037037038" />
+        <entry key="..\:/Users/ayman/AndroidStudioProjects/EmoTela-main/EmoTela-Final-Year-Project/emotela_finalyearproject/app/src/main/res/layout/fragment_recent_history.xml" value="0.2287179487179487" />
+        <entry key="..\:/Users/ayman/AndroidStudioProjects/EmoTela-main/EmoTela-Final-Year-Project/emotela_finalyearproject/app/src/main/res/layout/fragment_textfrag.xml" value="0.16" />
+        <entry key="..\:/Users/ayman/AndroidStudioProjects/EmoTela-main/EmoTela-Final-Year-Project/emotela_finalyearproject/app/src/main/res/layout/fragment_trends.xml" value="0.2287179487179487" />
+        <entry key="..\:/Users/ayman/AndroidStudioProjects/EmoTela-main/EmoTela-Final-Year-Project/emotela_finalyearproject/app/src/main/res/layout/fragment_u_r_lfrag.xml" value="0.2287179487179487" />
         <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/drawable-v24/button_style.xml" value="0.1" />
         <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/drawable-v24/ic_icon_awesome_home.xml" value="0.228" />
         <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/drawable-v24/ic_icon_awesome_search.xml" value="0.104" />
@@ -50,17 +56,6 @@
         <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/layout/my_nav.xml" value="0.23229166666666667" />
         <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/layout/rounded_shape.xml" value="0.21822916666666667" />
         <entry key="..\:/Users/ayman/AndroidStudioProjects/emotela_finalyearproject/app/src/main/res/menu/menu.xml" value="0.23229166666666667" />
-        <entry key="..\:/Users/ayman/OneDrive/Documents/GitHub/EmoTela-Final-Year-Project/emotela_finalyearproject/app/src/main/res/drawable-v24/button_style.xml" value="0.102" />
-        <entry key="..\:/Users/ayman/OneDrive/Documents/GitHub/EmoTela-Final-Year-Project/emotela_finalyearproject/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2385" />
-        <entry key="..\:/Users/ayman/OneDrive/Documents/GitHub/EmoTela-Final-Year-Project/emotela_finalyearproject/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.2385" />
-        <entry key="..\:/Users/ayman/OneDrive/Documents/GitHub/EmoTela-Final-Year-Project/emotela_finalyearproject/app/src/main/res/drawable/splashbg.xml" value="0.2385" />
-        <entry key="..\:/Users/ayman/OneDrive/Documents/GitHub/EmoTela-Final-Year-Project/emotela_finalyearproject/app/src/main/res/layout/activity_splash_screen.xml" value="0.2" />
-        <entry key="..\:/Users/ayman/OneDrive/Documents/GitHub/EmoTela-Final-Year-Project/emotela_finalyearproject/app/src/main/res/layout/adapterview.xml" value="0.19067977768277042" />
-        <entry key="..\:/Users/ayman/OneDrive/Documents/GitHub/EmoTela-Final-Year-Project/emotela_finalyearproject/app/src/main/res/layout/fragment_recent_history.xml" value="0.11200000000000002" />
-        <entry key="..\:/Users/ayman/OneDrive/Documents/GitHub/EmoTela-Final-Year-Project/emotela_finalyearproject/app/src/main/res/layout/fragment_trends.xml" value="0.1778537836682343" />
-        <entry key="..\:/Users/ayman/OneDrive/Documents/GitHub/EmoTela-Final-Year-Project/emotela_finalyearproject/app/src/main/res/layout/fragment_u_r_lfrag.xml" value="0.19067977768277042" />
-        <entry key="..\:/Users/ayman/OneDrive/Documents/GitHub/EmoTela-Final-Year-Project/emotela_finalyearproject/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.102" />
-        <entry key="..\:/Users/ayman/OneDrive/Documents/GitHub/EmoTela-Final-Year-Project/emotela_finalyearproject/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.102" />
       </map>
     </option>
   </component>

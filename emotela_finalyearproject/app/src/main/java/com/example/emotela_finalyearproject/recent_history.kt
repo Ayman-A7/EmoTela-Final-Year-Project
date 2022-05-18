@@ -74,7 +74,8 @@ class recent_history : Fragment(R.layout.fragment_recent_history) {
                 }
                 myAdapter.notifyDataSetChanged()
 
-                }
+
+            }
 
             override fun onCancelled(error: DatabaseError) {
                 Log.e("cancel", error.toString())

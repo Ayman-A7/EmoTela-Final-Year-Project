@@ -1,27 +1,32 @@
 package com.example.emotela_finalyearproject
 
 
-import android.annotation.SuppressLint
-import android.os.Bundle
-import android.util.Log
+
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
-import android.widget.*
+
 import androidx.fragment.app.Fragment
-import com.android.volley.Request
-import com.android.volley.RequestQueue
-import com.android.volley.VolleyError
-import com.android.volley.toolbox.JsonObjectRequest
-import com.android.volley.toolbox.Volley
 import com.example.emotela_finalyearproject.databinding.FragmentURLfragBinding
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.*
-import org.json.JSONException
+import androidx.appcompat.app.AppCompatActivity
+
+import android.os.Bundle
+import android.annotation.SuppressLint
+import android.util.Log
+import android.view.View
+import android.widget.*
+import com.android.volley.Request
+import com.android.volley.RequestQueue
+import com.android.volley.toolbox.Volley
+import com.android.volley.toolbox.JsonObjectRequest
 import org.json.JSONObject
+import org.json.JSONArray
+import org.json.JSONException
+import com.android.volley.VolleyError
 
 
-class URLfrag : Fragment(R.layout.fragment_trends), View.OnClickListener {
+class URLfrag : Fragment(R.layout.fragment_u_r_lfrag), View.OnClickListener {
     private var binding: FragmentURLfragBinding? = null
     private lateinit var auth: FirebaseAuth
 
@@ -39,21 +44,14 @@ class URLfrag : Fragment(R.layout.fragment_trends), View.OnClickListener {
         return binding!!.root
 
 
-
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        val getdata= binding?.gettweet
+
+        val getdata = binding?.gettweet
 
         getdata!!.setOnClickListener(this)
-
-
-    }
-
-    override fun onDestroy() {
-        super.onDestroy()
-        binding = null
     }
 
     @SuppressLint("SetTextI18n")
@@ -63,18 +61,17 @@ class URLfrag : Fragment(R.layout.fragment_trends), View.OnClickListener {
             val link: String = binding!!.getURL.getText().toString().trim()
             if (link.isEmpty()) {
                 binding?.getURL?.error = "Please Enter URL"
-
+                return
 
             }
-            val requestQueue: RequestQueue
-            requestQueue = Volley.newRequestQueue(context)
+            val requestQueue: RequestQueue = Volley.newRequestQueue(context)
             @SuppressLint("SetTextI18n") val jsonObjectRequest = JsonObjectRequest(
                 Request.Method.GET,
-                "https://twtsentiment-fastapi.herokuapp.com/twt_link?link=$link",
+                "https://twtsentiment-fastapi.herokuapp.com/get_trend?loc=$link",
                 null, { response: JSONObject ->
                     Log.d("Response", response.toString())
                     try {
-                        val jsonArray = response.getJSONArray("sentence")
+                        val jsonArray = response.getJSONArray("Trends")
                         for (i in 0 until jsonArray.length()) {
                             binding?.showTweet!!.append(
                                 """
@@ -82,6 +79,7 @@ class URLfrag : Fragment(R.layout.fragment_trends), View.OnClickListener {
  """
                             )
                             Log.d("TEXT", jsonArray.optString(i))
+                            Log.d("myapp", "Success")
                         }
                     } catch (e: JSONException) {
                         e.printStackTrace()
@@ -89,13 +87,19 @@ class URLfrag : Fragment(R.layout.fragment_trends), View.OnClickListener {
                 }) { error: VolleyError? -> Log.d("myapp", "something went wrong") }
             requestQueue.add(jsonObjectRequest)
         }
-        binding?.getURL!!.setOnClickListener {
-            binding?.showTweet!!.setText("")
-        }
+//        binding?.getURL!!.setOnClickListener {
+//            binding?.showTweet!!.setText("")
+//        }
 
     }
 
+    override fun onDestroy() {
+        super.onDestroy()
+        binding = null
+    }
 }
+
+
 
 
 

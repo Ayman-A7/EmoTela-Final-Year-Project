@@ -12,8 +12,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Emotela_finalyearproject">
-        <activity
+
+       <activity
             android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Splashscreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -30,6 +40,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".EditProfile"
             android:exported="true">
@@ -44,9 +55,6 @@
             android:exported="true" />
         <activity
             android:name=".Signin"
-            android:exported="true" />
-        <activity
-            android:name=".Splashscreen"
             android:exported="true" />
     </application>
 
